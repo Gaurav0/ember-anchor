@@ -13,7 +13,7 @@ The easiest way to use ember-anchor is to setup a controller with a queryParam, 
 Add this component to your application.hbs template, passing in the queryParam to be used as your "anchor" param, to the component as property `a`
 **app/templates/mypage.hbs**
 ```hbs
-{{ember-anchor a=myQueryParam}}
+{{ember-anchor a="anchor" anchor=anchor}}
 ```
 
 Now, in any template, you may build links with a queryParam, and add "anchors" to arbitrary elements in the page, which can be scrolled to.
